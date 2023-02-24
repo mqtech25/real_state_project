@@ -912,6 +912,8 @@
             18. Blog Slider One
         --------------------------------------------------------- */
         $('.ltn__blog-slider-one-active').slick({
+            autoplay:true,
+            autoplaySpeed:1000,
             arrows: true,
             dots: false,
             infinite: true,
@@ -1109,6 +1111,8 @@
             21. Testimonial Slider - 5
         --------------------------------------------------------- */
         $('.ltn__testimonial-slider-5-active').slick({
+            autoplay:true,
+            autoplaySpeed:1000,
             arrows: true,
             centerMode: false,
             centerPadding: '80px',
