@@ -351,15 +351,15 @@
             15. Slider One Active 
         --------------------------------------------------------- */
         $('.ltn__slide-one-active').slick({
-            autoplay: true,
-            autoplaySpeed: 2500,
+            autoplay:true,
+            autoplaySpeed: 3000,
             dots: true,
-            infinite: false,
-            speed: 2500,
+            infinite: true,
+            arrows: true,
             fade: true,
-            slide: 'div',
-            cssEase: 'linear',
+            speed: 1500,
             slidesToShow: 1,
+            slidesToScroll: 1,
             slidesToScroll: 1,
             prevArrow: '<a class="slick-prev"><i class="fas fa-arrow-left" alt="Arrow Icon"></i></a>',
             nextArrow: '<a class="slick-next"><i class="fas fa-arrow-right" alt="Arrow Icon"></i></a>',
