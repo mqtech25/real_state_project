@@ -12,6 +12,14 @@
   line-height: 1.375em;
   margin: 5px 0;
 }
+.service-icon{
+  width: 130px;
+  height: 150px;
+}
+.input-control{
+transition: 0.5s all;
+border-radius: 4px !important;
+}
 /* responsive */
 @media screen and (max-width:1440px) {
   .btn {
