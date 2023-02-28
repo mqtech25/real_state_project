@@ -19,7 +19,7 @@
 }
 .input-control {
   transition: 0.5s all;
-  border-radius: 4px !important;
+  border-radius: 50px !important;
 }
 .sticky_effect {
   position: -webkit-sticky;
