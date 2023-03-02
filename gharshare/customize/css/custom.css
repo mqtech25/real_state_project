@@ -1,0 +1,37 @@
+.btn {
+  padding: 16px 28px !important;
+}
+.custom-padding {
+  padding-bottom: 62px;
+}
+.section-title-area .bullets,
+.bullets {
+  display: flex;
+  gap: 3px;
+  margin-bottom: 0;
+  color: var(--ltn__heading-color);
+  line-height: 1.375em;
+  margin: 5px 0;
+}
+.service-icon {
+  width: 130px;
+  height: 150px;
+}
+.input-control {
+  transition: 0.5s all;
+  border-radius: 4px !important;
+}
+.sticky_effect {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 100px;
+  -webkit-align-self: flex-start;
+  -ms-flex-item-align: start;
+  align-self: flex-start;
+}
+/* responsive */
+@media screen and (max-width: 1440px) {
+  .btn {
+    padding: 14px 14px !important;
+  }
+}
