@@ -29,6 +29,8 @@
   -ms-flex-item-align: start;
   align-self: flex-start;
 }
+.btn-round-custom {
+  border-radius: 1.125rem; }
 /* responsive */
 @media screen and (max-width: 1440px) {
   .btn {
