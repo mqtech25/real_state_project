@@ -12,6 +12,21 @@
   background: var(--section-bg-6);
   color: var(--white);
 }
+.menu-icon > a::before {
+  content: "\276E" !important;
+  font-size: 10px !important;
+  top: 40% !important;
+  -webkit-transform: rotate(-90deg) !important;
+-ms-transform: rotate(-90deg) !important;
+transform: rotate(-90deg) !important;
+  font-weight: 500 !important;
+  transition: all 0.5s;
+}
+.menu-icon:hover > a::before {
+  -webkit-transform: rotate(90deg) !important;
+  -ms-transform: rotate(90deg) !important;
+  transform: rotate(90deg) !important;
+}
 .custom-padding {
   padding-bottom: 62px;
 }
