@@ -8,6 +8,10 @@
 .btn:hover {
   overflow: hidden;
 }
+.btn-sm {
+  padding: 8px 16px !important;
+  font-size: 14px;
+}
 .btn-secondary {
   background: var(--section-bg-6);
   color: var(--white);
@@ -17,8 +21,8 @@
   font-size: 10px !important;
   top: 40% !important;
   -webkit-transform: rotate(-90deg) !important;
--ms-transform: rotate(-90deg) !important;
-transform: rotate(-90deg) !important;
+  -ms-transform: rotate(-90deg) !important;
+  transform: rotate(-90deg) !important;
   font-weight: 500 !important;
   transition: all 0.5s;
 }
