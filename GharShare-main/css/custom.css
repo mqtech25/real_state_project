@@ -121,7 +121,13 @@ transform: rotate(-90deg) !important;
   padding-right: 24px;
   padding-left: 24px;
 }
-
+/* pricing */
+.pricing .ltn__pricing-head{
+ border-radius: 10px 10px 0 0;
+}
+.pricing .ltn_pricing-body{
+  border-radius: 0 0 10px 10px;
+ }
 /* responsive */
 @media screen and (max-width: 1440px) {
   .btn {
