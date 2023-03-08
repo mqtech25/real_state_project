@@ -1,0 +1,130 @@
+.btn {
+  padding: 16px 28px !important;
+  border-radius: 0.6rem;
+}
+.btn::after {
+  border-radius: 0.6rem;
+}
+.btn:hover {
+  overflow: hidden;
+}
+.btn-secondary {
+  background: var(--section-bg-6);
+  color: var(--white);
+}
+.custom-rounded{
+  border-radius: 1rem !important;
+  }
+
+.menu-icon > a::before {
+  content: "\276E" !important;
+  font-size: 10px !important;
+  top: 40% !important;
+  -webkit-transform: rotate(-90deg) !important;
+-ms-transform: rotate(-90deg) !important;
+transform: rotate(-90deg) !important;
+  font-weight: 500 !important;
+  transition: all 0.5s;
+}
+.menu-icon:hover > a::before {
+  -webkit-transform: rotate(90deg) !important;
+  -ms-transform: rotate(90deg) !important;
+  transform: rotate(90deg) !important;
+}
+.custom-padding {
+  padding-bottom: 62px;
+}
+.section-title-area .bullets,
+.bullets {
+  display: flex;
+  gap: 3px;
+  margin-bottom: 0;
+  color: var(--ltn__heading-color);
+  line-height: 1.375em;
+  margin: 5px 0;
+}
+.service-icon {
+  width: 130px;
+  height: 150px;
+}
+.input-control {
+  transition: 0.5s all;
+  border-radius: 1.125rem !important;
+  margin-bottom: 24px !important;
+  height: 3.5rem !important;
+  border: 1px solid transparent !important;
+  min-width: 100%;
+  padding: 0.3125rem 1.25rem !important;
+  /* box-shadow: 0 16px 32px 0 rgba(7, 28, 31, 0.1) !important; */
+}
+
+.input-control-btn{
+  width: 4.5rem !important;
+  height: 3.5rem !important;
+}
+
+.input-control:focus {
+  /* box-shadow: 0 0 0 0 rgba(7, 28, 31, 0.1) !important; */
+  border-color: var(--ltn__secondary-color) !important;
+}
+.sticky_effect {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 100px;
+  -webkit-align-self: flex-start;
+  -ms-flex-item-align: start;
+  align-self: flex-start;
+}
+.ltn__blog-img a img {
+  object-fit: cover;
+  width: 100%;
+  height: 250px;
+}
+
+.ltn__car-dealer-form-tab .tab-content{
+  top:-40px;
+  }
+  .btn-news {
+    border-radius: 0 1rem 1rem 0;
+  }
+  .bullets {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 0;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    color: #082642;
+    line-height: 1.375em;
+}
+.title.h4-size.home-feature-title {
+  font-family: 'Made tommy webfont',sans-serif;
+  color: #082642;
+}
+.title.h4-size {
+  font-size: 20px;
+  line-height: 1.4em;
+}
+.image.analytics-tool-feature-icon-copy {
+  margin-top: 7px;
+  margin-right: 10px;
+  margin-bottom: auto;
+}
+/* faq start */
+.container-medium-712px {
+  max-width: 712px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 24px;
+  padding-left: 24px;
+}
+
+/* responsive */
+@media screen and (max-width: 1440px) {
+  .btn {
+    padding: 14px 14px !important;
+  }
+}
